@@ -9,3 +9,5 @@ Parallel Macro can be used in conjunction with [HPC Workflow Manager](https://im
 If you have access to an HPC cluster and you are a new user, please read the [short guide](Short-Guide) first.
 
 If you do not have access to an HPC cluster, you can try to set up and use a virtual cluster. The following page will guide you step by step in the task of [building your own cluster and configuring it](Building-Your-Own-Cluster-and-Configuring-It). Once you have set up a functional virtual cluster, you can go through the worksheets of the [short guide](Short-Guide).
+
+[button url="https://github.com/fiji-hpc/parallel-macro/wiki/Short-Guide"]
