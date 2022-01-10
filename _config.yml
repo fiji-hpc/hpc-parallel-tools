@@ -1,1 +1,5 @@
+title: HPC-ParallelTools
+description: Bridging Fiji and OpenMPI for easy-to-use parallel processing of images.
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-tactile
