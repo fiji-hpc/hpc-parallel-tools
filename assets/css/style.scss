@@ -3,9 +3,33 @@
 
 @import "jekyll-theme-tactile";
 
-#view-on-github {
-	width:auto;
+
+.github-sourcecode span { 
+	background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
+}
+
+.documentation span { 
+	background: transparent url(../images/book.svg) 12px 50% no-repeat;
+}
+
+a.button {
+	width: auto;
 	margin:5px;
+}
+
+#logo {
+	width: 45%;
+	height: 45%;
+}
+
+#funding {
+	width: 50%;
+	height: 50%;
+}
+
+#HPC-ParallelTools {
+	width: 70%;
+	height: 70%;
 }
 
 .center {

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+	<link rel="shortcut icon" href="/assets/images/favicon.ico">	
+	<meta name="theme-color" content="#ffffff">
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,15 +21,16 @@
       <div class="inner">
 
         <header>
-		  <img src="assets/images/hpc-paralleltools-logo.svg" width="45%" height="45%" class="center" alt="{{ page.title | default: site.title | default: site.github.repository_name }}" >
+		  <img src="assets/images/hpc-paralleltools-logo.svg" class="center" alt="{{ page.title | default: site.title | default: site.github.repository_name }}" id="HPC-ParallelTools">
           <!-- <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         </header>
         <section id="downloads" class="clearfix">
           {% if site.show_downloads %}
-          <a href="https://github.com/fiji-hpc/hpc-workflow-manager-full" id="view-on-github" class="button"><span>HPC Workflow Manager</span></a>
-          <a href="https://github.com/fiji-hpc/parallel-macro" id="view-on-github" class="button"><span>Parallel Macro</span></a>
-		  <a href="https://github.com/fiji-hpc/scijava-parallel-mpi" id="view-on-github" class="button"><span>OpenMPI Ops</span></a>
+          <a href="https://github.com/fiji-hpc/hpc-workflow-manager-full" class="button github-sourcecode" ><span>HPC Workflow Manager</span></a>
+          <a href="https://github.com/fiji-hpc/parallel-macro" class="button github-sourcecode" ><span>Parallel Macro</span></a>
+		  <a href="https://github.com/fiji-hpc/scijava-parallel-mpi" class="button github-sourcecode" ><span>OpenMPI Ops</span></a>
+		  <a href="https://github.com/fiji-hpc/parallel-macro/wiki/Short-Guide" class="button documentation" ><span>Short Guide</span></a>
           {% endif %}
         </section>
         <hr>
@@ -41,8 +44,8 @@
         {% endif %}
 		This website was based on the Jekyll <a href="https://github.com/pages-themes/tactile">Tactile</a> theme.
 		<br/><br/>
-		<img src="assets\images\IT4I -EN.png" alt="IT4Innovations logo" width="45%" height="45%">
-		<img src="assets\images\funding.png" alt="Funding" width="50%" height="50%">
+		<img src="assets/images/IT4I-EN.png" alt="IT4Innovations logo" id="logo">
+		<img src="assets/images/funding.png" alt="Funding" id="funding">
         </footer>
       </div>
     </div>
