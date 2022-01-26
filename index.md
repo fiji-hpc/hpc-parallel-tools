@@ -36,3 +36,11 @@ OpenMPI Ops can be combined with Parallel Macro to add another level of parallel
 If you have access to an HPC cluster and you are a new user, please read the [short guide](https://github.com/fiji-hpc/parallel-macro/wiki/Short-Guide). 
 
 If you do not have access to an HPC cluster, you can try to [build and configure your own virtual cluster](https://github.com/fiji-hpc/parallel-macro/wiki/Building-Your-Own-Cluster-and-Configuring-It). You can download a pre-made [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1) [appliance here](https://helenos.fi.muni.cz/files/VirtualCluster.ova). For all three nodes of the appliance the username is `fiji` and the password is `12345678`, use the existing MAC addresses to avoid manual network configuration (during the import to your VirtualBox installation). Once you have set up a functional virtual cluster, you can go through the worksheets of the [short guide](https://github.com/fiji-hpc/parallel-macro/wiki/Short-Guide).
+
+<video width="640" height="480" controls>
+  <source src="assets\videos\TryVirtualAppliance.mp4" type="video/mp4">
+</video>
+
+<video width="640" height="480" controls>
+  <source src="assets\videos\HostToGuestConnection.mp4" type="video/mp4">
+</video>
