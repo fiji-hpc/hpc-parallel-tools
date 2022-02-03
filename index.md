@@ -12,7 +12,7 @@ Running image processing algorithms in parallel is desirable for image analysts 
 While the cost of computational equipment decreases, making it possible to readily build or simply gain access to large HPC resources, the software able to exploit such hardware in a straightforward and user-friendly manner is lacking. 
 
 ## Solution
-At IT4Innovations, we addressed this problem in Fiji by building a bridge to the prevalent HPC parallelization framework - the [Open MPI](https://www.open-mpi.org/).
+At IT4Innovations, we addressed this problem in [Fiji](https://imagej.net/software/fiji/) by building a bridge to the prevalent HPC parallelization framework - the [Open MPI](https://www.open-mpi.org/).
 
 In recognition of the diversity of ImageJ usage by the biology community, we enable Open MPI parallelization at two distinct levels within Fiji:
 
